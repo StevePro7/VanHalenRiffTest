@@ -15,13 +15,13 @@ sdcc -o output.ihx -mz80 --no-std-crt0 --data-loc 0xC000 ^
 -Wl-b_BANK5=0x8000 ^
 -Wl-b_BANK6=0x8000 ^
 -Wl-b_BANK7=0x8000 ^
-..\lib\SMSlib.lib ^
 banks\bank2.rel ^
 banks\bank3.rel ^
 banks\bank4.rel ^
 banks\bank5.rel ^
 banks\bank6.rel ^
 banks\bank7.rel ^
+..\lib\SMSlib.lib ^
 object\riff_object.rel ^
 fxsample.rel
 

@@ -7,11 +7,13 @@ const unsigned char psgInit[] =
 
 void main (void)
 {
-	const unsigned char r = 0;
+	const unsigned char r = 1;
 	const unsigned char g = 0;
-	const unsigned char b = 1;
+	const unsigned char b = 0;
+
 	unsigned char test = 0;
 	unsigned char index = 0;
+	unsigned char count = 5;
 
 	const unsigned char *data;
 	unsigned char bank;
@@ -26,41 +28,13 @@ void main (void)
 		if( !test )
 		{
 			test = 1;
-
-			// Riff #0.
-			index = 0;
-			data = riff_data[ index ];
-			bank = riff_bank[ index ];
-			SMS_mapROMBank( bank );
-			PlaySample( data );
-
-			//// Riff #1.
-			//index = 1;
-			//data = riff_data[ index ];
-			//bank = riff_bank[ index ];
-			//SMS_mapROMBank( bank );
-			//PlaySample( data );
-
-			//// Riff #2.
-			//index = 2;
-			//data = riff_data[ index ];
-			//bank = riff_bank[ index ];
-			//SMS_mapROMBank( bank );
-			//PlaySample( data );
-
-			//// Riff #4.
-			//index = 3;
-			//data = riff_data[ index ];
-			//bank = riff_bank[ index ];
-			//SMS_mapROMBank( bank );
-			//PlaySample( data );
-
-			//// Riff #4.
-			//index = 4;
-			//data = riff_data[ index ];
-			//bank = riff_bank[ index ];
-			//SMS_mapROMBank( bank );
-			//PlaySample( data );
+			for( index = 0; index < count; index++ )
+			{
+				data = riff_data[ index ];
+				bank = riff_bank[ index ];
+				SMS_mapROMBank( bank );
+				PlaySample( data );
+			}
 		}
 
 		SMS_waitForVBlank();
