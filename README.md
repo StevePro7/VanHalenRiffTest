@@ -7,7 +7,7 @@ cd wav
 RunningWithTheDevil.wav
 <br />
 <br />
-pcmenc
+<b>pcmenc</b>
 <br />
 pcmenc -rto 1 -dt1 12 -dt2 12 -dt3 423 RunningWithTheDevil.wav
 <br />
@@ -18,7 +18,9 @@ Riff_1978.wav.pcmenc
 <br />
 66,515 bytes
 <br />
+<br />
 Therefore, chunk out into 5x files and put into banks:
+<br />
 bank3	Riff_1978_01.wav.pcmenc	16,384 bytes
 <br />
 bank4	Riff_1978_02.wav.pcmenc	16,384 bytes
