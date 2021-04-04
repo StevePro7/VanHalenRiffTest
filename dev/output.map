@@ -52,11 +52,11 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000628  s__GSINIT                       
      00000637  s__GSFINAL                      
      00000880  l__BANK2                        
-     00002DD2  l__BANK7                        
-     0000305D  l__BANK4                        
-     000037AD  l__BANK6                        
-     00003C5C  l__BANK3                        
-     00003F02  l__BANK5                        
+     00002808  l__BANK3                        
+     000029AE  l__BANK6                        
+     00002A56  l__BANK4                        
+     00002F9F  l__BANK5                        
+     00003196  l__BANK7                        
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
 Hexadecimal  [32-Bits]
 
@@ -332,7 +332,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK3                              00008000    00003C5C =       15452. bytes (REL,CON)
+_BANK3                              00008000    00002808 =       10248. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -343,7 +343,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK4                              00008000    0000305D =       12381. bytes (REL,CON)
+_BANK4                              00008000    00002A56 =       10838. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -355,7 +355,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK5                              00008000    00003F02 =       16130. bytes (REL,CON)
+_BANK5                              00008000    00002F9F =       12191. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -367,7 +367,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK6                              00008000    000037AD =       14253. bytes (REL,CON)
+_BANK6                              00008000    000029AE =       10670. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -379,7 +379,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK7                              00008000    00002DD2 =       11730. bytes (REL,CON)
+_BANK7                              00008000    00003196 =       12694. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------

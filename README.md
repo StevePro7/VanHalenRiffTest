@@ -33,3 +33,9 @@ bank7	Riff_1978_05.wav.pcmenc	   979 bytes
 <br />
 <br />
 Play sample from ROM bank3 to bank7
+
+
+Execute batch script in code
+https://stackoverflow.com/questions/5519328/executing-batch-file-in-c-sharp
+
+System.Diagnostics.Process.Start("c:\\batchfilename.bat");
