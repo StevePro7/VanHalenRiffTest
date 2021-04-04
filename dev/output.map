@@ -52,11 +52,11 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000628  s__GSINIT                       
      00000637  s__GSFINAL                      
      00000880  l__BANK2                        
-     00002808  l__BANK3                        
-     000029AE  l__BANK6                        
-     00002A56  l__BANK4                        
-     00002F9F  l__BANK5                        
-     00003196  l__BANK7                        
+     00001DE8  l__BANK7                        
+     000031B1  l__BANK6                        
+     00003BFB  l__BANK5                        
+     00003E08  l__BANK4                        
+     00003F62  l__BANK3                        
 ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
 Hexadecimal  [32-Bits]
 
@@ -332,59 +332,59 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK3                              00008000    00002808 =       10248. bytes (REL,CON)
+_BANK3                              00008000    00003F62 =       16226. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00008000  _Riff_1978_01_wav_pcmenc           bank3
+     00008000  _Riff_1981_01_wav_pcmenc           bank3
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK4                              00008000    00002A56 =       10838. bytes (REL,CON)
+_BANK4                              00008000    00003E08 =       15880. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00008000  G$Riff_1978_02_wav_pcmenc$0_0$0    bank4
-     00008000  _Riff_1978_02_wav_pcmenc           bank4
+     00008000  G$Riff_1981_02_wav_pcmenc$0_0$0    bank4
+     00008000  _Riff_1981_02_wav_pcmenc           bank4
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK5                              00008000    00002F9F =       12191. bytes (REL,CON)
+_BANK5                              00008000    00003BFB =       15355. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00008000  G$Riff_1978_03_wav_pcmenc$0_0$0    bank5
-     00008000  _Riff_1978_03_wav_pcmenc           bank5
+     00008000  G$Riff_1981_03_wav_pcmenc$0_0$0    bank5
+     00008000  _Riff_1981_03_wav_pcmenc           bank5
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK6                              00008000    000029AE =       10670. bytes (REL,CON)
+_BANK6                              00008000    000031B1 =       12721. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00008000  G$Riff_1978_04_wav_pcmenc$0_0$0    bank6
-     00008000  _Riff_1978_04_wav_pcmenc           bank6
+     00008000  G$Riff_1981_04_wav_pcmenc$0_0$0    bank6
+     00008000  _Riff_1981_04_wav_pcmenc           bank6
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_BANK7                              00008000    00003196 =       12694. bytes (REL,CON)
+_BANK7                              00008000    00001DE8 =        7656. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00008000  G$Riff_1978_05_wav_pcmenc$0_0$0    bank7
-     00008000  _Riff_1978_05_wav_pcmenc           bank7
+     00008000  G$Riff_1981_05_wav_pcmenc$0_0$0    bank7
+     00008000  _Riff_1981_05_wav_pcmenc           bank7
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
 
