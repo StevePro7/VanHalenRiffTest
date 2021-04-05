@@ -7,13 +7,13 @@ const unsigned char psgInit[] =
 
 void main (void)
 {
-	const unsigned char r = 0;
+	const unsigned char r = 3;
 	const unsigned char g = 0;
 	const unsigned char b = 0;
 
 	unsigned char test = 0;
 	unsigned char index = 0;
-	unsigned char count = 5;
+	unsigned char count = 4;
 
 	const unsigned char *data;
 	unsigned char bank;
