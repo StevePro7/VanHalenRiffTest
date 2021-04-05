@@ -2,11 +2,11 @@ XL2
 H 9 areas 8 global symbols
 M riff_object
 O -mz80
-S _Riff_1981_01_wav_pcmenc Ref0000
-S _Riff_1981_02_wav_pcmenc Ref0000
-S _Riff_1981_03_wav_pcmenc Ref0000
-S _Riff_1981_04_wav_pcmenc Ref0000
-S _Riff_1981_05_wav_pcmenc Ref0000
+S _Riff_test_01_wav_pcmenc Ref0000
+S _Riff_test_02_wav_pcmenc Ref0000
+S _Riff_test_03_wav_pcmenc Ref0000
+S _Riff_test_04_wav_pcmenc Ref0000
+S _Riff_test_05_wav_pcmenc Ref0000
 S .__.ABS. Def0000
 A _CODE size 5 flags 0 addr 0
 S _riff_bank Def0000
