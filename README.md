@@ -39,3 +39,14 @@ Execute batch script in code
 https://stackoverflow.com/questions/5519328/executing-batch-file-in-c-sharp
 
 System.Diagnostics.Process.Start("c:\\batchfilename.bat");
+
+
+BEFORE
+pcmenc -rto 1 -dt1 12 -dt2 12 -dt3 423 RunningWithTheDevil.wav
+
+AFTER
+pcmenc -rto 1 -r 16 -dt1 12 -dt2 12 -dt3 423 Riff_2012.wav
+
+
+MAXIM
+pcmenc -dt1 81 -dt2 81 -dt3 81 -rto 3 -r 16 input.wav
